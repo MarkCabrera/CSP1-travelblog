@@ -1,0 +1,192 @@
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+ 
+
+body {
+
+              margin-left: 0;
+
+              background: #222;
+
+              font-family: 'Playfair Display', serif;
+
+              font-weight: 300;
+
+}
+
+ 
+
+.container {
+
+              width: 100%;
+
+              margin: 0 auto;
+
+}
+
+ 
+
+header {
+
+              background: #55d6aa;
+
+              width: 100%;
+
+}
+
+ 
+
+header::after {
+
+              content: '';
+
+              display: table;
+
+              clear: both;
+
+}
+
+ 
+
+i {
+
+              float: left;
+
+              padding: 10px 0;
+
+}
+
+ 
+
+nav {
+
+              float: right;
+
+}
+
+ 
+
+nav ul {
+
+              margin: 0;
+
+              padding: 0;
+
+              list-style: none;
+
+}
+
+ 
+
+nav li {
+
+              display: inline-block;
+
+              margin-left: 70px;
+
+              padding-top: 25px;
+
+              position: relative;
+
+}
+
+ 
+
+nav a {
+
+              color: #444;
+
+              text-decoration: none;
+
+              text-transform: uppercase;
+
+}
+
+ 
+
+nav a:hover {
+
+              color: #000;
+
+}
+
+ 
+
+nav a::before {
+
+              content: '';
+
+              display: block;
+
+              height: 5px;
+
+              width: 100%;
+
+              background: #444;
+
+              position: absolute;
+
+              top: 0;
+
+              width: 0%;
+
+              transition: all ease-in-out 250ms;
+
+}
+
+ 
+
+nav a:hover::before {
+
+              width: 100%;
+
+}
+
+h1 {
+       color: yellowgreen;
+       text-align: center;
+       padding: 10px;
+}
+
+footer {
+
+              width: 100%;
+
+              background: #55d6aa;
+
+              padding: 10px 0px;
+
+              text-align: center;
+
+              position: fixed;
+
+              left: 0;
+
+              bottom: 0;
+
+              text-align: center;
+}
+
+
+.gallery {
+       width: 100%;
+       height: auto;
+       padding: 0 6px;
+       float: left;
+       width: 25%;
+}
+
+.des {
+       padding: 20px;
+       text-align: center;
+       margin-bottom: 50px;
+}
+
+img {
+       margin-left: 30px;
+}

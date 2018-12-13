@@ -1,0 +1,266 @@
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+ 
+
+body {
+
+              margin-left: 0;
+
+              background: #222;
+
+              font-family: 'Playfair Display', serif;
+
+              font-weight: 300;
+
+              max-width: 100%;
+
+}
+
+ 
+
+.container {
+
+              max-width: 100%;
+
+              margin: 0 auto;
+
+}
+
+ 
+
+header {
+
+              background: #55d6aa;
+
+              width: 100%;
+
+}
+
+ 
+
+header::after {
+
+              content: '';
+
+              display: table;
+
+              clear: both;
+
+              width: 100%;
+}
+
+ 
+
+i {
+
+              float: left;
+
+              padding: 10px 0;
+
+}
+
+ 
+
+nav {
+
+              float: right;
+
+              max-width: 100%;
+
+}
+
+ 
+
+nav ul {
+
+              margin: 0;
+
+              padding: 0;
+
+              list-style: none;
+
+}
+
+ 
+
+nav li {
+
+              display: inline-block;
+
+              margin-left: 70px;
+
+              padding-top: 25px;
+
+              position: relative;
+
+}
+
+ 
+
+nav a {
+
+              color: #444;
+
+              text-decoration: none;
+
+              text-transform: uppercase;
+
+}
+
+ 
+
+nav a:hover {
+
+              color: #000;
+
+}
+
+ 
+
+nav a::before {
+
+              content: '';
+
+              display: block;
+
+              height: 5px;
+
+              width: 100%;
+
+              background: #444;
+
+              position: absolute;
+
+              top: 0;
+
+              width: 0%;
+
+              transition: all ease-in-out 250ms;
+
+}
+
+ 
+
+nav a:hover::before {
+
+              width: 100%;
+
+}
+
+ 
+
+img {
+
+              height: 600px;
+
+              width: 300px;
+
+}
+
+ 
+
+h2 {
+
+              color: yellowgreen;
+
+              font-size: 50px;
+
+              font-family: 'Playfair Display', serif;
+
+}
+
+ 
+
+.wrapper {
+
+
+              display: table;
+
+}
+
+ 
+ #carouselExampleIndicators {
+       max-width: 100%;
+}
+
+.row {
+
+              margin: 10px 0;
+
+}
+
+ 
+
+.column {
+
+              display: table-cell;
+
+              padding: 10px;
+
+              width: 33.33333%;
+
+              text-align: center;
+
+              color: yellowgreen;
+
+              vertical-align: middle;
+}
+
+ 
+
+.autofit {
+
+              height: 350px;
+
+              width: 350px;
+
+              margin-left: 40px;
+
+}
+
+ 
+
+.image {
+
+              width: 300px;
+
+              height: 300px;
+
+}
+
+ 
+p {
+       text-align: left;
+       font-family: 'Open Sans Condensed', sans-serif;
+}
+
+footer {
+
+              width: 100%;
+
+              background: #55d6aa;
+
+              padding: 10px 0px;
+
+              text-align: center;
+
+              position: relative;
+
+
+}
+
+h1 {
+       color: yellowgreen;
+       text-align: center;
+       padding: 5px;
+       margin-top: 70px;
+       margin-bottom: 0;
+       font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
